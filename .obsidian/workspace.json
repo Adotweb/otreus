@@ -131,7 +131,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -140,6 +141,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "marp-slides:Show Slide Preview": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -150,10 +152,11 @@
   },
   "active": "43bfc6af3031fcf9",
   "lastOpenFiles": [
+    "Imhof Space.md",
+    "Miscellaneous - English Talk from 11th march 2024.md",
+    "Bio - DNA.md",
     "Chemie - Acids and Bases.md",
     "chem.md",
-    "b.md",
-    "Bio - DNA.md",
-    "Imhof Space.md"
+    "b.md"
   ]
 }
