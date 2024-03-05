@@ -1,15 +1,11 @@
 #gisx #gisy #english #presentation #talk 
 
 ---
-# Hello 
+# GISX 
 
-
-$$
-\begin{aligned}
-	f(x) = \cos{x}
-\end{aligned}
-$$
+### because Gisy sucks and Notely sometimes does too
 
 --- 
+# The Idea 
 
 
