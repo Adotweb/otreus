@@ -51,3 +51,16 @@ in schritten:
 
 Die Gene sind bestimmte abschnitte im Genom. Es werden nur diese Benötigt weil der Rest des genoms im gegensatz zu den genen (exons) nur käse (introns) ist. 
 
+# Du verstehst den Sinn der Transkription und kennst ihren Ablauf und welche Enzyme dabei beteiligt sind.
+--- 
+
+DNA wird zu mRNA umgewandelt damit sie mit den Ribosomen transportiert werden kann. 
+Weil RNA, Thymin in DNA zu Uracin umgewandelt. Wird von RNA-polymerase erledigt. 
+
+1. RNA polymerase scannt nach promotor. 
+2. RNA polymerase spaltet DNA auf und liest Codogenen Strang (3' -> 5') 
+3. RNA polymerase setzt base für base an die mRNA an (elongation)
+4. RNA lauft in 5' -> 3' richtung
+5. Bei erreichen des terminators wird die Transkription beendet 
+6. bisher unreife RNA muss noch geschützt werden (5' - cap aus Guanin und Poly-A-schwanz am 3' ende aus adenin)
+7. Introns werden entfernt -> fertig
