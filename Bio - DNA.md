@@ -46,12 +46,12 @@ in schritten:
 4. DNA replikation ended sobald ende erreicht ist. 
 
 
-## Du weisst, was ein Gen ist, warum nur diese Sequenzen für die Proteinsynthese genutzt werden und weshalb die DNA beim Menschen trotzdem so lang ist
+### Du weisst, was ein Gen ist, warum nur diese Sequenzen für die Proteinsynthese genutzt werden und weshalb die DNA beim Menschen trotzdem so lang ist
 
 
 Die Gene sind bestimmte abschnitte im Genom. Es werden nur diese Benötigt weil der Rest des genoms im gegensatz zu den genen (exons) nur käse (introns) ist. 
 
-# Du verstehst den Sinn der Transkription und kennst ihren Ablauf und welche Enzyme dabei beteiligt sind.
+### Du verstehst den Sinn der Transkription und kennst ihren Ablauf und welche Enzyme dabei beteiligt sind.
 --- 
 
 DNA wird zu mRNA umgewandelt damit sie mit den Ribosomen transportiert werden kann. 
@@ -64,3 +64,42 @@ Weil RNA, Thymin in DNA zu Uracin umgewandelt. Wird von RNA-polymerase erledigt.
 5. Bei erreichen des terminators wird die Transkription beendet 
 6. bisher unreife RNA muss noch geschützt werden (5' - cap aus Guanin und Poly-A-schwanz am 3' ende aus adenin)
 7. Introns werden entfernt -> fertig
+
+### Du verstehst, wie der Strang bei der Transkription ausgewählt wird und mit welchen Strukturen Start und Stopp gesteuert werden.
+
+--- 
+
+Die RNA-polymerase scannt und wenn sie promotoren findet beginnt sie zu kreeiren bis sie den terminus scannt. 
+
+
+### Du kennst den Aufbau eines Proteins (Strukturen) und weisst, weshalb für die Übersetzung von RNA zu Aminosäuren Triplets benötigt werden. 
+--- 
+
+Die Triplets sorgen für eine höhere Zahl, weil 4 < 20 und 4³ > 20, macht es mehr sinn 3 mal basen zu verwenden, da so zusätzlich eine redundanz und somit eine mehrfachdefinierung möglich ist.
+
+### Verwendung der codesonne 
+--- 
+
+1. tripel bilden 
+2. innen anfangen 
+3. vorarbeiten (AUG -> start), (AAU -> some shit), etc.
+
+
+### Translation und Proteinsynthese 
+--- 
+
+tRNA
+
+- Kleeblatt form 
+- Stiel Akzeptor Stamm, am 3' ende AAC wo eine Aminosäure andocken kann
+- Gegenüber Anticodon Schleife -> ist auf die Angedockte Aminosäure codiert. 
+- abgesehen von schleifen überall wasserstoff brücken die zusammenhalten. 
+- Jede aminosäure hat eigene Aminoacyl-tRNA-synthetase, lässt also nur eine Aminosäure aber mehrere Codons zu (macht sinn den 64 > 20)
+- zuerst dockt aminosäure an dann tRNA dann aktivierte tRNA die aminosäure 
+
+
+### Weiteres 
+--- 
+
+Acetin und Guanin sind Purine (sechsfachring + fünfachring)
+Uracil, Thymin und Cytosin sind Pyrimidine (nur sechsfachring)
