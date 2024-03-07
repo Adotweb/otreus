@@ -36,3 +36,5 @@ $$\begin{aligned}
 	f_2(t) = a_2 \cdot e^{-k_2t} + b_2
 
 \end{aligned}$$
+
+--- 
