@@ -1,5 +1,8 @@
 #französisch #Cyrano
 
+[[Französisch - Acte 4 de Cyrano]]
+[[Französisch - Titres pour Cyrano]]
+
 # Cyrano : le noeud de l'action 
 
 - l'imposture -> (imposter syndrom) 

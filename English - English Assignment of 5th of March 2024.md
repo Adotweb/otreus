@@ -11,7 +11,7 @@
 
 8. lifelike and bringing to life 
 9. 
-	1. story of my life -> really important thing that happened, something to look back on
+	1. story of my life -> something that always repeats
 	2. larger than life -> really vibrant in personality, enjoying life to the fullest and more... 
 	3. a fact of life -> commonly known fact
 	4. all walks of life -> all possible things to do in life 
