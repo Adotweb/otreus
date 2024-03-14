@@ -23,9 +23,10 @@ K:G
 
 4. _
 ```music-abc 
-X:1 
+X:1
+T:Exercises
+L:4/8
+R:jig
 K:G
-L:1/8
-[]
+[C-EG]2[C-Ac]2[CEG]2 | [E-Ac]2 [E-Bd]2 [EAc]2 | [c-eg]2[c-eg]2[ceg]2| 
 ```
-
