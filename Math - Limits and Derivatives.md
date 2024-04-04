@@ -1,26 +1,27 @@
 let the derivative: 
 $$
-\frac{d}{dy} f = \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x}
+\frac{d}{dx} f = \lim_{\Delta x \to 0} \frac{f(x + \Delta x) - f(x)}{\Delta x}
 $$
-and lets consider the Area under a continuous function $f$ between 0 and b to be: 
+and the Area under a continuous function can be approximated using: 
 
 $$
 \begin{aligned}
-\lim_{\Delta x \to 0} \sum_{n=0}^{\frac{b}{\Delta x}}f(n \cdot \Delta x) \cdot \Delta x
+A = \sum_{n=0}^{\frac{b - a}{\Delta x}}f(a + n \cdot \Delta x) \cdot \Delta x
 	
 \end{aligned}
 $$
+this becomes exact when we look at the limiting case as $\Delta x \to 0$. 
 
-if we now compose: 
+if we now compose, we get the Area under $\frac{d}{dx}f$: 
 
 $$
 \begin{aligned}
-\lim_{\Delta x \to 0} \sum_{n=0}^{\frac{b}{\Delta x}} \frac{f(n \cdot \Delta x + \Delta x) - f(n \cdot \Delta x)}{\Delta x} \cdot \Delta x
+A = \lim_{\Delta x \to 0} \sum_{n=0}^{\frac{b - a}{\Delta x}} \frac{f(a+ n \cdot \Delta x + \Delta x) - f(a + n \cdot \Delta x)}{\Delta x} \cdot \Delta x
 
 \end{aligned}
 $$
 
-we get by rearranging: 
+by cancelling we get: 
 
 $$
 \begin{aligned}
@@ -29,23 +30,32 @@ $$
 \end{aligned}
 $$
 
-we can say that $f(n \cdot \Delta x + \Delta x) - f(n \cdot \Delta x)$ is the change in function, and if we add upp all the changes  of a function up until b (starting at 0) we know that that will equal the difference $f(b) - f(0)$, if we want to know the area under a continuous function $f$ from a to b we can subtract the difference $f(a) - f(0)$ from $f(b) - f(0)$ and get: 
 
+if we expand this out we get: 
+
+$$\begin{aligned}
+A = &&f(a + \Delta x) - f(a) \\ 
+&& +  f(a + 2 \Delta x) - f(a + \Delta x) \\
+&& +  f(a + 3 \Delta x) - f(a + 2\Delta x) \\
+&&.\\ 
+&&. \\
+&&.\\ 
+&&+ f\left(a + \frac{b - a}{\Delta x} \Delta x\right)- f\left(a + \left(\frac{b - a}{\Delta x}-1\right)\Delta x\right)
+
+\end{aligned}$$
+
+and we notice that every second term cancels the first term of the previous column, and so we are left with: 
+$$
+A = f\left(a + \frac{b - a}{\Delta x}\Delta x\right)- f(a)
+$$
+which in turn simplifies to: 
 
 $$
-f(b) - f(0) - (f(a) - f(0)) =  f(b) - f(a)
-$$
-Therefore if we know a function $F$ that wen derived yields $f$ we know that the area under the curve of $f$ from a to b is $F(b) - F(a)$. 
-
-We simplify above notation to: 
-
+A = f(b) - f(a)
 $$
 
-\int_{a}^{b}f(x)dx = F(b) - F(a)
-$$
-and we say that given no bounds $a$ and $b$: 
+Therefore, the area under the curve of $\frac{d}{dx}f$ is equal to $f(b) - f(a)$. 
 
-$$
-\int f(x)dx = F(x)
-$$
+We are now able to find the area under any curve $f$ if we know the function $g$ so that $\frac{d}{dx}g = f$.
+
 
